@@ -1,11 +1,11 @@
 
+
 var o = {
-	a: 0,
-	b: 10,
-	'1': 30
+	a: 1,
+	b: 5,
+	"1": 25
 }
 
-for(var prop in o){
-	// доступ к переменной prop
-	console.log(o[prop]);
+for(var i in o){
+	console.log(o[i]);
 }
