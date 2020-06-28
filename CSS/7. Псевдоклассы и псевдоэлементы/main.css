@@ -1,0 +1,35 @@
+* {
+	transition: 1s all;
+}
+
+.funny_box {
+	width: 100px;
+	height: 100px;
+	background: green;
+}
+p {
+	width: 250px;
+}
+
+.funny_box:hover {
+	width: 300px;
+	height: 300px;
+	background: lightgreen;
+}
+
+.street:checked {
+	width: 100px;
+	height: 100px;
+}
+
+.field:focus {
+	background: red;
+}
+
+.jpeg:before {
+	content: "jpeg";
+}
+
+.mp3:after {
+	content: "mp3";
+}

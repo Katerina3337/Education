@@ -1,0 +1,44 @@
+.absolute_block{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: white;
+	box-shadow: 0 0 2px black;
+	position: absolute;
+	top: -15px;
+	left: 30px;
+	border: 1px solid grey;
+}
+
+.wrapper{
+	margin: 5px;
+	margin-top: 100px;
+	padding: 30px;
+	background: #ededed;
+	position: relative;
+	border: 1px solid black;
+	font-family: Tahoma;
+	font-size: 16px;
+}
+.box{
+	display: inline-block;
+	width: 300px;
+	background: #e3e3e3;
+	vertical-align: top;
+}
+.item{
+	height: 30px;
+	line-height: 30px;
+	padding-left: 5px;
+}
+.head{
+	background: #d1dce2;
+	text-align: center;
+}
+.grey{
+	background: #dedede;
+}
+.white{
+	background: white;
+}

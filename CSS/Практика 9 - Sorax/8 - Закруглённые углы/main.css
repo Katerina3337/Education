@@ -1,0 +1,6 @@
+.container {
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	background: #777;
+	border-bottom-right-radius: 10px 20px;

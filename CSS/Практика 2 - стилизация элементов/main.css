@@ -1,0 +1,25 @@
+h2{
+	color:green;
+}
+
+.orange{
+	background: orange;
+}
+
+#important{
+	font-size:24px;
+}
+
+.yellow_box{
+	height:300px;
+	width:300px;
+	background: yellow;
+}
+
+.world{
+	border:1px solid black;
+}
+
+.hello{
+	font-style: italic;
+}

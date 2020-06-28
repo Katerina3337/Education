@@ -1,0 +1,59 @@
+body {
+	font-family: Verdana;
+	font-size: 13px;
+	color: #333;
+	background: #f3f3f3;
+}
+
+a {
+	color: #cb2c2c;
+	text-decoration: none;
+}
+
+
+h1,li {
+	color: green;
+}
+
+h2.list {
+	color: orange;
+}
+
+#main {
+	color: grey;
+}
+
+* {
+	border: 1px solid black;
+}
+
+ul * {
+	border:1px solid red;
+}
+
+.list>li {
+	border-bottom: 1px dashed #555;
+}
+
+h4 + li {
+	color: green;
+}
+
+:link {
+ border -bottom: 5px solid green;
+}
+
+a:hover {
+	background: pink;
+}
+
+li:nth-child(2n) {
+	color: red;
+}
+
+h2::before {
+	content: "Ой: ";
+	font-size: 10px;
+}
+
+a[title="my title"]

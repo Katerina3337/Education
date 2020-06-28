@@ -1,0 +1,23 @@
+p {
+	background: orange;
+}
+
+h1 {
+	background: pink;
+}
+
+#block {
+	background: blue;
+}
+
+#block2 {
+	background: green;
+}
+
+.text {
+	background: yellow;
+}
+
+#block .text2 {
+ background: red;
+}

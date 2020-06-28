@@ -1,0 +1,30 @@
+body {
+	font: 1em Tahoma, Arial;
+}
+
+#wrapper {
+	background: blue;
+	perspective: 500px;
+	width: 400px;
+	height: 200px;
+}
+
+#myframe {
+	width: 450px;
+	height: 350px;
+}
+
+#container {
+	background: rgba(0,0,0,0.3);
+	width: 450px;
+	height: 350px;
+	margin: 80px;
+	border-radius: 7px;
+	border: 3px solid #fff;
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 150px;
+	text-align: center;
+
+	transform: rotate3d(1,1,1,40deg);
+}

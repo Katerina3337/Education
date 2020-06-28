@@ -1,0 +1,27 @@
+body {
+	font: 1em Arial;
+	margin: 0;
+}
+
+.container {
+	background: #999;
+	height: 200px;
+	width: 300px;
+	overflow: hidden;
+}
+
+
+.container_inner {
+	background: #ccc;
+	margin: 10px;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 1;
+}
+a {
+	background: #888;
+	width: 300px;
+	display: block;
+	height: 100px;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-1 helper">col-md-1</div>
+			<div class="col-md-1 helper">col-md-1</div>
+			<div class="col-md-1 helper">col-md-1</div>
+			<div class="col-md-1 helper">col-md-1</div>
+			<div class="col-md-1 helper">col-md-1</div>
+			<div class="col-md-1 helper">col-md-1</div>
+			<div class="col-md-1 helper">col-md-1</div>
+			<div class="col-md-1 helper">col-md-1</div>
+			<div class="col-md-1 helper">col-md-1</div>
+			<div class="col-md-1 helper">col-md-1</div>
+			<div class="col-md-1 helper">col-md-1</div>
+			<div class="col-md-1 helper">col-md-1</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8 helper">col-md-8</div>
+			<div class="col-md-4 helper">col-md-4</div>
+	
+		</div>
+		<div class="row">
+			<div class="col-md-4 helper">col-md-4</div>
+			<div class="col-md-4 helper">col-md-4</div>
+			<div class="col-md-4 helper">col-md-4</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 helper">col-md-6</div>
+			<div class="col-md-6 helper">col-md-6</div>
+		</div>
+	</div>
+
+	<p>Можно использовать маленькие (.col-xs-n) и средние (.col-md-n) класссы, чтобы на разных устройствах они занимали разное количество колонок. </p>
+
+	<div class="container mt-30">
+		<div class="row">
+			<div class="col-xs-12 col-md-6 helper">col-xs-12 col-md-6</div>
+			<div class="col-xs-6 col-md-4 helper">col-xs-6 col-md-4</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6 col-md-4 helper">col-xs-6 col-md-4</div>
+			<div class="col-xs-6 col-md-4 helper">col-xs-6 col-md-4</div>
+			<div class="col-xs-6 col-md-4 helper">col-xs-6 col-md-4</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6 helper">col-xs-6</div>
+			<div class="col-xs-6 helper">col-xs-6</div>
+		</div>
+	</div>
+
+	<p>более динамичные макеты можно создавать с помощью .col-sm-n</p>
+	
+	<div class="container mt-30">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-8 helper">.col-xs-12 .col-sm-6 .col-md-8</div>
+  		<div class="col-xs-6 col-md-4 helper">.col-xs-6 .col-md-4</div>
+  		<div class="col-xs-6 col-sm-4 helper">.col-xs-6 .col-sm-4</div>
+  		<div class="col-xs-6 col-sm-4 helper">.col-xs-6 .col-sm-4</div>
+  	</div>
+	</div>
+
+	<p>Если в одной строке более 12 колонок, каждая группа доролнительных столбцов будет переноситься на новую строку.</p>
+
+	<div class="container mt-30">
+		<div class="row">
+  		<div class="col-xs-9 helper">.col-xs-9</div>
+  		<div class="col-xs-4 helper">.col-xs-4</div>
+		</div>
+	</div>
+
+	<p>Если одна колонка выше другой (на маленьком экране), надо использовать .clearfix. Offsets, pushes, или pulls можно использовать для перемещения.</p>
+
+	<div class="container mt-30">
+		<div class="row">
+			<div class="col-xs-6 col-sm-3 border">.col-xs-6 .col-sm-3 Resize your viewport or check it out on your phone for an example.</div>
+  		<div class="col-xs-6 col-sm-3 border">.col-xs-6 .col-sm-3</div>
+
+
+			<div class="clearfix visible-xs-block"></div>
+
+  		<div class="col-xs-6 col-sm-3 border">.col-xs-6 .col-sm-3</div>
+  		<div class="col-xs-6 col-sm-3 border">.col-xs-6 .col-sm-3</div>
+		</div>
+	</div>
+
+	<p>Переместить колонки направо можно с помощью .col-md-offset-n класса. Эти классы увеличивают отступ слева столбца * колонки. Например, .col-md-offset-4 сдвигает .col-md-4 пропуская один такой же столбец</p>
+
+	<div class="container mt-30">
+		<div class="row">
+			<div class="col-md-4 helper">.col-md-4</div>
+  		<div class="col-md-4 col-md-offset-4 helper">.col-md-4 .col-md-offset-4</div>
+  		<div class="col-md-3 col-md-offset-3 helper">.col-md-3 .col-md-offset-3</div>
+  		<div class="col-md-3 col-md-offset-3 helper">.col-md-3 .col-md-offset-3</div>
+  		<div class="col-md-6 col-md-offset-3 helper">.col-md-6 .col-md-offset-3</div>
+		</div>
+	</div>
+	
+	<p>Чтобы вложить содержимое в сетку по умолчанию, добавьте новый .row и набор столбцов .col-sm-n в существующий столбец .col-sm-n. Вложенные строки должны включать в себя набор столбцов, которые составляют не более 12. </p>
+
+	<div class="container mt-30">
+		<div class="row">
+			<div class="col-sm-9">Level 1: .col-sm-9
+			<div class="row">
+				<div class="col-xs-8 col-sm-6 helper">Level 2: .col-xs-8 .col-sm-6</div>
+				<div class="col-xs-4 col-sm-6 helper"> Level 2: .col-xs-4 .col-sm-6</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<p>Классами .col-md-push-n и .col-md-pull-n можно изменить порядок встроенных столбцов.</p>
+
+	<div class="container mt-30">
+		<div class="row">
+			<div class="col-md-9 col-md-push-3 helper">.col-md-9 .col-md-push-3</div>
+  		<div class="col-md-3 col-md-pull-9 helper">.col-md-3 .col-md-pull-9</div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+<!-- 
+
+
+
+ bootstrap - шаблоны css. Подключаются перед css.
+ Предназначен для разметки адаптивных сайтов. 
+ 
+ Классы container и container-fluid применяется
+ как корневой элемент для адаптивной 12-и колончатой сетки.
+ 
+
+
+ Система разметки используется для создания макетов страниц с помощью ряда строк и столбцов, в которых размещается Ваш контент. Вот так работает система разметки boorstrap:
+ 1..row должны быть помещены в .container (fixed width) или .container-fluid (full-width) для правильного выравнивания и заполнения.
+ 2. Использовать строки для создания горизонтальных групп столбцов.
+ 3. Контент должен быть помещен в столбцах, и только колонки могут быть непосредственными потомками строк.
+ 4. Столбцы создают желоба (промежутки между содержанием столбцов) с помощью padding. Тогда padding компенсируется в строках дя первого и последнего столбца с помощью отрицательного margin на .row.
+ 5. Столбцы разметки создаются с указанием количества 12 доступных столбцов, которые вы хотите охватить. Например, три равных колонки использовали бы три .col-xs-4.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -->

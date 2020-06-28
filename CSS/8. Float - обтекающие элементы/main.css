@@ -1,0 +1,26 @@
+.box {
+	height: 100px;
+	width: 100px;
+	background: red;
+	float: right;
+}
+
+.wrapper {
+	width: 200px;
+	background: #eee;
+}
+
+.sidebar {
+	width: 40%;
+	background: green;
+}
+
+.content {
+	width: 60%;
+	background: yellow;
+}
+
+.wrapper_big div {
+	height: 300px;
+	float: left;
+}
